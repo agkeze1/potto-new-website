@@ -42,7 +42,9 @@ const PageTitle: FC<Props> = ({
       </p>
 
       {/* Title */}
-      <p className={`${titleClr} font-black text-5xl mt-8 text-center`}>
+      <p
+        className={`${titleClr} font-black text-5xl mt-8 text-center leading-normal`}
+      >
         {title}
       </p>
 

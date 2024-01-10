@@ -28,7 +28,7 @@ const Banner = () => {
           />
         </div>
         <div className="mt-16">
-          <PlayButton />
+          <PlayButton secondary />
         </div>
       </div>
       {/* Video container */}
