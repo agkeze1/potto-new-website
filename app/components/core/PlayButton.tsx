@@ -7,7 +7,7 @@ type Props = {
 
 const PlayButton: FC<Props> = ({ secondary = false }) => {
   return (
-    <div className="flex relative items-center justify-center">
+    <div className="flex relative items-center justify-center h-full w-full">
       <div
         className={`flex items-center justify-center ${
           secondary

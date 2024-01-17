@@ -16,9 +16,9 @@ const ProblemStatement = () => {
       <div className="absolute top-0 left-0 w-full h-full z-0 bg-black bg-opacity-90" />
       <div
         id="content"
-        className="relative px-10 md:px-16 z-50 py-36 justify-center items-center"
+        className="relative px-5 md:px-16 z-50 py-36 justify-center items-center"
       >
-        <div className="mx-10 md:mx-20 lg:mx-36">
+        <div className="mx-5 md:mx-20 lg:mx-36">
           <PageTitle
             tagLabel="Problem Statement"
             title="Over 80% of parents express concerns regarding the safety and academic performance of their child."

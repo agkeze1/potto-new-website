@@ -8,7 +8,7 @@ const Benefits = () => {
       className="relative w-full overflow-hidden bg-repeat-y"
       style={{ backgroundImage: 'url("/img/benefit-bg.png")' }}
     >
-      <div className="flex flex-col items-center justify-center w-full px-10 my-36">
+      <div className="flex flex-col items-center justify-center w-full px-5 my-36">
         <PageTitle
           tagLabel="Potto Benefits"
           title="Amazing Benefits for Everyone"

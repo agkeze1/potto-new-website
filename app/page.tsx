@@ -1,8 +1,8 @@
-import Image from "next/image";
 import TopNav from "./components/core/TopNav";
 import Banner from "./components/sections/Banner";
 import Benefits from "./components/sections/Benefits";
 import ProblemStatement from "./components/sections/ProblemStatement";
+import JoinCommunity from "./components/sections/JoinCommunity";
 
 export default function Home() {
   return (
@@ -11,6 +11,7 @@ export default function Home() {
       <Banner />
       <Benefits />
       <ProblemStatement />
+      <JoinCommunity />
     </main>
   );
 }
