@@ -3,6 +3,8 @@ import Banner from "./components/sections/Banner";
 import Benefits from "./components/sections/Benefits";
 import ProblemStatement from "./components/sections/ProblemStatement";
 import JoinCommunity from "./components/sections/JoinCommunity";
+import Solutions from "./components/sections/Solutions";
+import GetStarted from "./components/sections/GetStarted";
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
       <Benefits />
       <ProblemStatement />
       <JoinCommunity />
+      <Solutions />
+      <GetStarted />
     </main>
   );
 }

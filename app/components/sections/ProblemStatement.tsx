@@ -18,15 +18,13 @@ const ProblemStatement = () => {
         id="content"
         className="relative px-5 md:px-16 z-50 py-36 justify-center items-center"
       >
-        <div className="mx-5 md:mx-20 lg:mx-36">
-          <PageTitle
-            tagLabel="Problem Statement"
-            title="Over 80% of parents express concerns regarding the safety and academic performance of their child."
-            desc="Many administrators have failed to lay a foundation of safety for their schools which has resulted to:"
-            titleClr="text-white"
-            descClr="text-gray-400"
-          />
-        </div>
+        <PageTitle
+          tagLabel="Problem Statement"
+          title="Over 80% of parents express concerns regarding the safety and academic performance of their child."
+          desc="Many administrators have failed to lay a foundation of safety for their schools which has resulted to:"
+          titleClr="text-white"
+          descClr="text-gray-400"
+        />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 mt-16 justify-center">
           <div className="order-2 md:order-1">
             <ProblemCard

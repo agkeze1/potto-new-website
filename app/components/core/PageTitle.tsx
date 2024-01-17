@@ -2,7 +2,7 @@ import React, { FC } from "react";
 
 type Props = {
   tagLabel: string;
-  tagLabelClr?: "primary |  secondary | white";
+  tagLabelClr?: "primary" | "secondary" | "white";
   title: string;
   titleClr?: string;
   desc: string;
@@ -18,7 +18,7 @@ const PageTitle: FC<Props> = ({
   descClr = "text-gray-500",
 }) => {
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center mx-5 md:px-40 lg:mx-36">
       {/* TagLine text */}
       <p
         className={`${
