@@ -14,10 +14,7 @@ const ProblemStatement = () => {
     >
       {/* Dark overlay */}
       <div className="absolute top-0 left-0 w-full h-full z-0 bg-black bg-opacity-90" />
-      <div
-        id="content"
-        className="relative px-5 md:px-16 z-50 py-36 justify-center items-center"
-      >
+      <div className="relative px-5 md:px-16 z-50 py-36 justify-center items-center">
         <PageTitle
           tagLabel="Problem Statement"
           title="Over 80% of parents express concerns regarding the safety and academic performance of their child."
