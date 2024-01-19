@@ -9,7 +9,7 @@ import Promise from "./components/sections/Promise";
 
 export default function Home() {
   return (
-    <main className="flex flex-col min-h-screen items-center">
+    <main className="flex flex-col min-h-screen items-center bg-gray-100">
       <TopNav />
       <Banner />
       <Benefits />

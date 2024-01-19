@@ -50,8 +50,8 @@ const ProblemStatement = () => {
               // height="h-96"
             />
           </div>
-          <div className="relative mx-1 order-1 md:order-4">
-            <div className="absolute -top-5 -right-5">
+          <div className="flex items-center justify-center relative mx-1 order-1 md:order-4">
+            <div className="absolute">
               <PlayButton />
             </div>
             <img src="/img/prob-image.png" alt="" />
