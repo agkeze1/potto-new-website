@@ -5,6 +5,7 @@ import ProblemStatement from "./components/sections/ProblemStatement";
 import JoinCommunity from "./components/sections/JoinCommunity";
 import Solutions from "./components/sections/Solutions";
 import GetStarted from "./components/sections/GetStarted";
+import Promise from "./components/sections/Promise";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <JoinCommunity />
       <Solutions />
       <GetStarted />
+      <Promise />
     </main>
   );
 }

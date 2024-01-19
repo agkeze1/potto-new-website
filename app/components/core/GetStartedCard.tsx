@@ -9,7 +9,13 @@ type Props = {
 
 const GetStartedCard: FC<Props> = ({ title, desc, icon }) => {
   return (
-    <div className="relative bg-white w-full">
+    <div
+      className="relative bg-white w-full"
+      style={{
+        boxShadow:
+          "8px 0 15px rgba(0, 0, 0, 0.2), inset 12px 0 20px rgba(0, 0, 0, 0.1)",
+      }}
+    >
       {/* background image */}
       <Image
         src="/svg/icon-bg.svg"
