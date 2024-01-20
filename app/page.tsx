@@ -7,6 +7,7 @@ import Solutions from "./components/sections/Solutions";
 import GetStarted from "./components/sections/GetStarted";
 import Promise from "./components/sections/Promise";
 import Testimonials from "./components/sections/Testimonials";
+import Plan from "./components/sections/Plan";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <GetStarted />
       <Promise />
       <Testimonials />
+      <Plan />
     </main>
   );
 }
