@@ -10,6 +10,7 @@ import Testimonials from "./components/sections/Testimonials";
 import Plan from "./components/sections/Plan";
 import Faq from "./components/sections/Faq";
 import Team from "./components/sections/Team";
+import Suite from "./components/sections/Suite";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <Plan />
       <Faq />
       <Team />
+      <Suite />
     </main>
   );
 }
