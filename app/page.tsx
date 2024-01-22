@@ -9,6 +9,7 @@ import Promise from "./components/sections/Promise";
 import Testimonials from "./components/sections/Testimonials";
 import Plan from "./components/sections/Plan";
 import Faq from "./components/sections/Faq";
+import Team from "./components/sections/Team";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <Testimonials />
       <Plan />
       <Faq />
+      <Team />
     </main>
   );
 }
