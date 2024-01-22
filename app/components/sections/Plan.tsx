@@ -1,6 +1,5 @@
 import React from "react";
 import PageTitle from "../core/PageTitle";
-import { FiChevronRight } from "react-icons/fi";
 import PlanCard from "../core/PlanCard";
 
 const Plan = () => {
