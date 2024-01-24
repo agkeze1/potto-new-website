@@ -1,0 +1,60 @@
+[
+    {
+        "icon": "",
+        "title": "Potto Assess",
+        "subTitle": "Result Management System",
+        "desc": "",
+        "features": [
+            "Instant result processing and generation",
+            "Teacher privilege setting to avoid buddy inputting",
+            "Online access by student to check results",
+            "Friendly mobile app for easy access to child’s records"
+        ]
+    },
+    {
+        "icon": "",
+        "title": "Potto Pay",
+        "subTitle": "Electronic Payment and Fee Collection System",
+        "desc": "Instant payment receipt generation, PCI DSS certified, Dynamic invoice creation, Payment history and automatic fee drive, Fee creation and management, Cross platform (Android and iOS), Friendly user  interface, Multiple payment options, Instant SMS for  receipt acknowledgement",
+        "features": [
+            "Collection of all type of fees for schoo",
+            "Payment history generation and financial status report",
+            "Creation of different type of fees and Automatic receipt generation"
+        ]
+    },
+    {
+        "icon": "",
+        "title": "Potto Pocket",
+        "subTitle": "Students Pocket Money Management",
+        "desc": "Manual and electronic wallet funding, Cashless  payment, Transfer between wallets, Fund regulation and restrictions, Online purchases within school  platforms, Transaction monitoring, ID credit cards.",
+        "features": [
+            "Seamless payment of fees",
+            "Student budget allocation",
+            "Expenses tracking of child’s spending",
+            "Easy and cashless purchases in school"
+        ]
+    },
+    {
+        "icon": "",
+        "title": "Potto Store",
+        "subTitle": "Mini Ecommerce System",
+        "desc": "Online product display, Responsive interface, Payment processing using PottoPay and PottoPocket, Order processing and cart management, Cross platform use (android and ios)",
+        "features": [
+            "Sales of admission forms and other school materials",
+            "Proper inventory management",
+            "Seamless account reconciliation"
+        ]
+    },
+    {
+        "icon": "",
+        "title": "Potto Admin",
+        "subTitle": "School Database Management System",
+        "desc": "Online and offline ability, Robust architecture, Scalable database, Cross platform (Android and iOS), Friendly user interface.",
+        "features": [
+            "Student and Staff Data processing",
+            "Communication Management using SMS and Emails",
+            "Dynamic School Configuration",
+            "Full customization to suit your look and feel"
+        ]
+    }
+]
