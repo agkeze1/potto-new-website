@@ -5,12 +5,12 @@ import ProblemStatement from "./components/sections/ProblemStatement";
 import JoinCommunity from "./components/sections/JoinCommunity";
 import Solutions from "./components/sections/Solutions";
 import GetStarted from "./components/sections/GetStarted";
-import Promise from "./components/sections/Promise";
+// import Promise from "./components/sections/Promise";
 import Testimonials from "./components/sections/Testimonials";
-import Plan from "./components/sections/Plan";
-import Faq from "./components/sections/Faq";
-import Team from "./components/sections/Team";
-import Suite from "./components/sections/Suite";
+// import Plan from "./components/sections/Plan";
+// import Faq from "./components/sections/Faq";
+// import Team from "./components/sections/Team";
+// import Suite from "./components/sections/Suite";
 
 export default function Home() {
   return (
@@ -22,12 +22,12 @@ export default function Home() {
       <JoinCommunity />
       <Solutions />
       <GetStarted />
-      <Promise />
+      {/* <Promise /> */}
       <Testimonials />
-      <Plan />
-      <Faq />
-      <Team />
-      <Suite />
+      {/* <Plan /> */}
+      {/* <Faq /> */}
+      {/* <Team /> */}
+      {/* <Suite /> */}
     </main>
   );
 }

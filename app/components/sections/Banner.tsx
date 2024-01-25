@@ -4,7 +4,10 @@ import PlayButton from "../core/PlayButton";
 
 const Banner = () => {
   return (
-    <div className="relative w-full min-h-screen -mt-24">
+    <div
+      className="relative w-full min-h-screen -mt-24 bg-cover"
+      style={{ backgroundImage: 'url("/img/banner-bg.jpeg")' }}
+    >
       <div className="flex flex-col relative items-center justify-center w-full min-h-screen bg-teal-600 bg-opacity-75 z-20 ">
         <p className="text-4xl md:text-6xl lg:text-8xl font-bold text-white my-2">
           Secured School
@@ -32,7 +35,7 @@ const Banner = () => {
         </div>
       </div>
       {/* Video container */}
-      <div className="absolute top-0 left-0 w-full h-full">
+      {/* <div className="absolute top-0 left-0 w-full h-full">
         <div className="flex flex-col items-center justify-center w-full h-full bg-red-600">
           <video
             className="w-full h-screen object-cover"
@@ -45,7 +48,7 @@ const Banner = () => {
             Your browser does not support the video tag.
           </video>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

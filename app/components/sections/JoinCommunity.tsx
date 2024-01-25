@@ -22,7 +22,7 @@ const JoinCommunity = () => {
           <FaFacebook className="text-white h-5 w-5 md:h-7 md:w-7 mr-4" />
           <AiFillInstagram className="text-white  h-6 w-6 md:h-8 md:w-8 mr-4" />
           <BsLinkedin className="text-white h-4 w-4 md:h-6 md:w-6 mr-4" />
-          <FaTiktok className="text-white h-5 w-5 md:h-6 md:w-6 mr-4" />
+          {/* <FaTiktok className="text-white h-5 w-5 md:h-6 md:w-6 mr-4" /> */}
           <p className="font-xl text-white font-bold">@potto.ng</p>
         </div>
       </div>

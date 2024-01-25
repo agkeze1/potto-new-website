@@ -21,9 +21,44 @@ const TopNav = () => {
           className="hidden md:block"
         />
       </Link>
-      <Link href="/contact" className="text-sm md:text-lg font-bold text-white">
-        Contact Us
-      </Link>
+      <div className="">
+        <Link
+          href="/pages/potto-promise"
+          className="text-sm md:text-lg font-bold text-white mx-4 py-2 hover:border-b-4  hover:border-b-yellow-600"
+        >
+          Our Promise
+        </Link>
+        <Link
+          href="/pages/potto-plan"
+          className="text-sm md:text-lg font-bold text-white mx-4 py-2 hover:border-b-4  hover:border-b-yellow-600"
+        >
+          Plan
+        </Link>
+        <Link
+          href="/pages/potto-suite"
+          className="text-sm md:text-lg font-bold text-white mx-4 py-2 hover:border-b-4  hover:border-b-yellow-600"
+        >
+          Suite
+        </Link>
+        <Link
+          href="/pages/faq"
+          className="text-sm md:text-lg font-bold text-white mx-4 py-2 hover:border-b-4  hover:border-b-yellow-600"
+        >
+          FAQ
+        </Link>
+        <Link
+          href="/pages/team"
+          className="text-sm md:text-lg font-bold text-white mx-4 py-2 hover:border-b-4  hover:border-b-yellow-600"
+        >
+          Team
+        </Link>
+        <Link
+          href="/pages/contact"
+          className="text-sm md:text-lg font-bold text-white mx-4 py-2 hover:border-b-4  hover:border-b-yellow-600"
+        >
+          Contact Us
+        </Link>
+      </div>
     </div>
   );
 };
