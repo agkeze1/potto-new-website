@@ -48,9 +48,9 @@ const ProblemStatement = () => {
             />
           </div>
           <div className="flex items-center justify-center relative mx-1 order-1 md:order-4">
-            <div className="absolute">
+            {/* <div className="absolute">
               <PlayButton />
-            </div>
+            </div> */}
             <img src="/img/prob-image.png" alt="" />
           </div>
         </div>
