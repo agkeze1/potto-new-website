@@ -8,7 +8,10 @@ import suites from "../../data/suites.json";
 
 const Suite = () => {
   return (
-    <div className="flex flex-col items-center justify-center w-full py-36 px-5 md:px-16 bg-teal-700 bg-no-repeat">
+    <div
+      className="flex flex-col items-center justify-center w-full py-36 px-5 md:px-16 bg-teal-700 bg-no-repeat"
+      id="suite"
+    >
       <PageTitle
         tagLabel="Potto Suite"
         title="Potto Key Product"

@@ -5,7 +5,10 @@ import SinglePromise from "../core/SinglePromise";
 
 const Promise = () => {
   return (
-    <div className="flex flex-col items-center justify-center w-full py-36">
+    <div
+      className="flex flex-col items-center justify-center w-full py-36"
+      id="promise"
+    >
       <div className="w-full px-5 md:px-16">
         <PageTitle
           tagLabel="Potto Promise"

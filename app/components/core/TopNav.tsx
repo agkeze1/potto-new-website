@@ -1,8 +1,14 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
 const TopNav = () => {
+  const navToSection = (id: string) => {
+    if (!id) return;
+    const section = document.getElementById(id);
+    section?.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div className="flex w-full px-8 items-center justify-between h-24 z-50">
       <Link href="#">
@@ -22,42 +28,54 @@ const TopNav = () => {
         />
       </Link>
       <div className="">
-        <Link
-          href="/pages/potto-promise"
+        <button
           className="text-sm md:text-lg font-bold text-white mx-4 py-2 hover:border-b-4  hover:border-b-yellow-600"
+          onClick={() => {
+            navToSection("promise");
+          }}
         >
           Our Promise
-        </Link>
-        <Link
-          href="/pages/potto-plan"
-          className="text-sm md:text-lg font-bold text-white mx-4 py-2 hover:border-b-4  hover:border-b-yellow-600"
+        </button>
+        <button
+          className="text-sm md:text-lg font-bold text-white mx-4 py-2 hover:border-b-4  hover:border-b-yellow-600 box-border"
+          onClick={() => {
+            navToSection("plan");
+          }}
         >
           Plan
-        </Link>
-        <Link
-          href="/pages/potto-suite"
+        </button>
+        <button
           className="text-sm md:text-lg font-bold text-white mx-4 py-2 hover:border-b-4  hover:border-b-yellow-600"
+          onClick={() => {
+            navToSection("suite");
+          }}
         >
           Suite
-        </Link>
-        <Link
-          href="/pages/faq"
+        </button>
+        <button
           className="text-sm md:text-lg font-bold text-white mx-4 py-2 hover:border-b-4  hover:border-b-yellow-600"
+          onClick={() => {
+            navToSection("faq");
+          }}
         >
           FAQ
-        </Link>
-        <Link
-          href="/pages/team"
+        </button>
+        <button
           className="text-sm md:text-lg font-bold text-white mx-4 py-2 hover:border-b-4  hover:border-b-yellow-600"
+          onClick={() => {
+            navToSection("team");
+          }}
         >
           Team
-        </Link>
-        <Link
-          href="/pages/contact"
+        </button>
+        <button
           className="text-sm md:text-lg font-bold text-white mx-4 py-2 hover:border-b-4  hover:border-b-yellow-600"
+          onClick={() => {
+            navToSection("contact");
+          }}
         >
           Contact Us
-        </Link>
+        </button>
       </div>
     </div>
   );

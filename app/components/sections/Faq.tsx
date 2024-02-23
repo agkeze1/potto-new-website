@@ -6,7 +6,10 @@ import faqs from "../../data/faq.json";
 
 const Faq = () => {
   return (
-    <div className="flex flex-col items-center justify-center w-full py-36 px-5 md:px-16 bg-gray-200">
+    <div
+      className="flex flex-col items-center justify-center w-full py-36 px-5 md:px-16 bg-gray-200"
+      id="faq"
+    >
       <PageTitle
         tagLabel="Frequently Asked Questions"
         title="Make a Better Decision"

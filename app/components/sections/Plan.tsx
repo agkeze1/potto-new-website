@@ -4,7 +4,10 @@ import PlanCard from "../core/PlanCard";
 
 const Plan = () => {
   return (
-    <div className="flex flex-col items-center justify-center w-full py-36  px-5 md:px-16">
+    <div
+      className="flex flex-col items-center justify-center w-full py-36  px-5 md:px-16"
+      id="plan"
+    >
       <PageTitle
         tagLabel="Potto Plan"
         title="Amazing Subscriptions for all Client type"
