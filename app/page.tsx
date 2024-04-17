@@ -11,6 +11,7 @@ import Plan from "./components/sections/Plan";
 import Faq from "./components/sections/Faq";
 import Team from "./components/sections/Team";
 import Suite from "./components/sections/Suite";
+import Footer from "./components/core/Footer";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       <Faq />
       <Team />
       <Suite />
+      <Footer />
     </main>
   );
 }
