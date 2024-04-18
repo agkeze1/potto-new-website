@@ -113,14 +113,34 @@ const SinglePromise: FC<Props> = ({
                 className="lg:flex bg-yellow-600 bg-opacity-20 items-center justify-center px-16 py-3 w-full lg:w-auto"
                 style={{ backgroundImage: 'url("/img/join-comm-bg-sm.png")' }}
               >
-                <p className="lg:mr-8 text-yellow-600 font-bold text-md mb-5 lg:mb-0 text-center lg:text-start lg:text-xl">
+                {/* <p className="lg:mr-8 text-yellow-600 font-bold text-md mb-5 lg:mb-0 text-center lg:text-start lg:text-xl">
                   Join Our Community
-                </p>
+                </p> */}
                 <div className="flex justify-center items-center">
-                  <FaFacebook className="text-yellow-600 h-5 w-5 md:h-6 md:w-6 mr-4" />
-                  <AiFillInstagram className="text-yellow-600  h-6 w-6 md:h-7 md:w-7 mr-4" />
-                  <BsLinkedin className="text-yellow-600 h-4 w-4 md:h-5 md:w-5 mr-4" />
-                  <FaTiktok className="text-yellow-600 h-5 w-5 md:h-5 md:w-5 mr-4" />
+                  <a
+                    href="https://www.facebook.com/potto.ngr"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaFacebook className="text-yellow-600 h-5 w-5 md:h-6 md:w-6 mr-4" />
+                  </a>
+
+                  <a
+                    href="https://www.instagram.com/potto.ng?igsh=MWZ6YmR1ZzBwd3Z5eA=="
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <AiFillInstagram className="text-yellow-600  h-6 w-6 md:h-7 md:w-7 mr-4" />
+                  </a>
+
+                  <a
+                    href="https://www.linkedin.com/company/potto/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <BsLinkedin className="text-yellow-600 h-4 w-4 md:h-5 md:w-5 mr-4" />
+                  </a>
+                  {/* <FaTiktok className="text-yellow-600 h-5 w-5 md:h-5 md:w-5 mr-4" /> */}
                 </div>
               </div>
             </div>

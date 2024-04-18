@@ -1,6 +1,7 @@
 import React, { FC, useState } from "react";
 import FunctionText from "./FunctionText";
 import { features } from "process";
+import Image from "next/image";
 
 export type suiteProps = {
   icon: string;
@@ -31,7 +32,15 @@ const SuiteCard: FC<Props> = ({ suiteObj }) => {
         className="w-full h-full bg-white p-10 flex flex-col items-center justify-center"
         style={{ backgroundImage: 'url("/img/bg-suite.png")' }}
       >
-        <div className="w-28 h-28 rounded-full bg-yellow-600 bg-opacity-25" />
+        <div className="w-28 h-28 rounded-full bg-yellow-600 bg-opacity-25">
+          <Image
+            height={120}
+            width={120}
+            className="relative object-contain"
+            src={suiteObj?.icon}
+            alt="Potto Icon"
+          />
+        </div>
         <h1 className="font-black text-2xl text-teal-700 mt-8">
           {suiteObj?.title}
         </h1>

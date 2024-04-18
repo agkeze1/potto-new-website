@@ -8,7 +8,7 @@ const Banner = () => {
       className="relative w-full min-h-screen -mt-24 bg-cover"
       style={{ backgroundImage: 'url("/img/banner-bg.jpeg")' }}
     >
-      <div className="flex flex-col relative items-center justify-center w-full min-h-screen bg-teal-600 bg-opacity-75 z-20 ">
+      <div className="flex flex-col relative items-center justify-center w-full min-h-screen bg-gray-600 bg-opacity-70 z-20 ">
         <p className="text-4xl md:text-6xl lg:text-8xl font-bold text-white my-2">
           Secured School
         </p>
@@ -24,15 +24,16 @@ const Banner = () => {
         </p>
         <div className="mt-8">
           <ButtonComp
-            btnText="Join Us"
+            btnText="Start Free Trial"
             bgColor="bg-white"
             txtColor="text-teal-600"
             width="w-40"
+            url="https://forms.gle/LDjZ9gHtqqw9nsBf9"
           />
         </div>
-        <div className="mt-16">
+        {/* <div className="mt-16">
           <PlayButton secondary />
-        </div>
+        </div> */}
       </div>
       {/* Video container */}
       {/* <div className="absolute top-0 left-0 w-full h-full">
