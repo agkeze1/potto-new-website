@@ -28,7 +28,7 @@ const Banner = () => {
             bgColor="bg-white"
             txtColor="text-teal-600"
             width="w-40"
-            url="https://forms.gle/LDjZ9gHtqqw9nsBf9"
+            url="https://forms.gle/CLBWetDgxbQNXgJk7"
           />
         </div>
         {/* <div className="mt-16">
