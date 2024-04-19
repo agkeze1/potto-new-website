@@ -5,6 +5,7 @@ import FunctionText from "../core/FunctionText";
 import FeatureText from "../core/FeatureText";
 import SuiteCard, { suiteProps } from "../core/SuiteCard";
 import suites from "../../data/suites.json";
+import Image from "next/image";
 
 const Suite = () => {
   return (
@@ -26,7 +27,17 @@ const Suite = () => {
             className="bg-yellow-600 px-10 py-24 flex flex-col justify-center items-center w-full"
             style={{ backgroundImage: 'url("/img/bg-suite.png")' }}
           >
-            <div className="w-28 h-28 rounded-full bg-white mb-8" />
+            <div className="w-28 h-28 rounded-full bg-white mb-8">
+              <Image
+                height={200}
+                width={200}
+                className="relative object-contain"
+                src={
+                  "https://res.cloudinary.com/potto-attendance/image/upload/v1641544864/logo/potto-secure-logo_xgwmjc.png"
+                }
+                alt="Potto Secure Icon"
+              />
+            </div>
             <p className="text-5xl text-white font-black">Potto</p>
             <p className="text-5xl text-white font-black mt-2">Secure</p>
             <p className="text-md text-white mt-4">Student Safety Management</p>
@@ -79,7 +90,17 @@ const Suite = () => {
             className="w-full h-full bg-white p-10 flex flex-col items-center"
             style={{ backgroundImage: 'url("/img/bg-suite.png")' }}
           >
-            <div className="w-28 h-28 rounded-full bg-yellow-600 bg-opacity-25" />
+            <div className="w-28 h-28 rounded-full bg-yellow-600 bg-opacity-25">
+              <Image
+                height={120}
+                width={120}
+                className="relative object-contain"
+                src={
+                  "https://res.cloudinary.com/potto-attendance/image/upload/v1606184128/logo/Potto-logo-only_iebxw7.png"
+                }
+                alt="Potto Secure Icon"
+              />
+            </div>
             <h1 className="font-black text-2xl text-teal-700 mt-8">
               Potto Comm
             </h1>

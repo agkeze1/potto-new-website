@@ -14,9 +14,9 @@ const Benefits = () => {
           title="Amazing Benefits for Everyone"
           desc="Potto is a security management solution designed to ensure the safety of students against varying security threats from early detection to quick response, using leading-edge technologies."
         />
-        <div className="flex flex-col items-center w-full">
+        {/* <div className="flex flex-col items-center w-full">
           <img src="/img/image1.png" alt="Products" className="mt-16" />
-        </div>
+        </div> */}
         <div className="w-full mt-28 md:px-16">
           <BenefitCardGroup />
         </div>

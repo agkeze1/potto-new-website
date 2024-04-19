@@ -3,7 +3,6 @@ import PlayButton from "../core/PlayButton";
 import { FaFacebook } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
-import { FaTiktok } from "react-icons/fa";
 
 const JoinCommunity = () => {
   return (
@@ -15,13 +14,32 @@ const JoinCommunity = () => {
         <PlayButton secondary />
       </div>
       <div className="flex flex-col w-full md:w-2/3 items-center py-10 md:py-0">
-        <h1 className="font-black text-3xl md:text-4xl text-white text-center">
+        {/* <h1 className="font-black text-3xl md:text-4xl text-white text-center">
           Join Our Community
-        </h1>
+        </h1> */}
         <div className="flex mt-2 md:mt-6 items-center">
-          <FaFacebook className="text-white h-5 w-5 md:h-7 md:w-7 mr-4" />
-          <AiFillInstagram className="text-white  h-6 w-6 md:h-8 md:w-8 mr-4" />
-          <BsLinkedin className="text-white h-4 w-4 md:h-6 md:w-6 mr-4" />
+          <a
+            href="https://www.facebook.com/potto.ngr"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaFacebook className="text-white h-5 w-5 md:h-7 md:w-7 mr-4" />
+          </a>
+          <a
+            href="https://www.instagram.com/potto.ng?igsh=MWZ6YmR1ZzBwd3Z5eA=="
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiFillInstagram className="text-white  h-6 w-6 md:h-8 md:w-8 mr-4" />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/company/potto/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BsLinkedin className="text-white h-4 w-4 md:h-6 md:w-6 mr-4" />
+          </a>
           {/* <FaTiktok className="text-white h-5 w-5 md:h-6 md:w-6 mr-4" /> */}
           <p className="font-xl text-white font-bold">@potto.ng</p>
         </div>

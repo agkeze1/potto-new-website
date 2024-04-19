@@ -13,13 +13,14 @@ import NewsletterInput from "./NewsletterInput";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col w-full py-8 px-5 md:px-16 bg-teal-700">
+    <div className="flex flex-col w-full py-8 px-5 md:px-16 bg-teal-700 ">
       {/* Background image */}
       {/* <Image
-        src="/public/img/bg-map.jpg"
-        alt=""
-        layout="fill"
-        className="absolute top-0 left-0 w-full h-full opacity-75"
+        src="/img/bg-map.jpg"
+        alt="footer bg"
+        width={1074}
+        height={1020}
+        className="absolute top-0 left-0 right-0 w-full h-full opacity-75"
       /> */}
 
       {/* Title and Contact Button */}
@@ -57,9 +58,27 @@ const Footer = () => {
 
           {/* Social Links */}
           <div className="flex mb-4">
-            <FaFacebook className="text-white h-5 w-5 md:h-6 md:w-6 mr-2" />
-            <AiFillInstagram className="text-white h-6 w-6 md:h-7 md:w-7 mr-2" />
-            <BsLinkedin className="text-white h-4 w-4 md:h-5 mt-1 md:w-5 mr-2" />
+            <a
+              href="https://www.facebook.com/potto.ngr"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFacebook className="text-white h-5 w-5 md:h-6 md:w-6 mr-2" />
+            </a>
+            <a
+              href="https://www.instagram.com/potto.ng?igsh=MWZ6YmR1ZzBwd3Z5eA==https://www.instagram.com/potto.ng?igsh=MWZ6YmR1ZzBwd3Z5eA=="
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillInstagram className="text-white h-6 w-6 md:h-7 md:w-7 mr-2" />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/potto/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsLinkedin className="text-white h-4 w-4 md:h-5 mt-1 md:w-5 mr-2" />
+            </a>
             <p className="text-base font-bold">@Potto.ng</p>
           </div>
         </div>
@@ -86,11 +105,11 @@ const Footer = () => {
           <div className="text-sm font-light">
             <div className="flex my-1">
               <FiPhone className="text-white mr-1 mt-1 " />
-              <p>+234 803 326 3736</p>
+              <p>+234 808 472 4276</p>
             </div>
             <div className="flex my-1">
               <FiPhone className="text-white mr-1 mt-1" />
-              <p>+234 803 326 3736</p>
+              <p>+234 812 557 8825</p>
             </div>
           </div>
         </div>
