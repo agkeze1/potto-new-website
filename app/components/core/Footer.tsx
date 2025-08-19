@@ -89,7 +89,7 @@ const Footer = () => {
           <div className="flex mb-4">
             <FiMapPin className="text-white mr-1" />
             <p className="text-sm font-light lg:w-3/5">
-              Block 83, Coal city estate, behind Central bank of Nigeria Enugu.
+              Houese 83, Coal City Gardenzw, Behind Central Bank of Nigeria Okpara Avenue Enugu.
             </p>
           </div>
 
