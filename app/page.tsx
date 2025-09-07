@@ -26,7 +26,7 @@ export default function Home() {
       <Promise />
       <Testimonials />
       <Plan />
-      <Faq />
+      {/* <Faq /> */}
       <Team />
       <Suite />
       <Footer />

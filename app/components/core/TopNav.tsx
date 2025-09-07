@@ -84,12 +84,12 @@ const TopNav = () => {
         >
           Suite
         </button>
-        <button
+        {/* <button
           className="text-sm md:text-lg font-bold text-white mx-4 py-2 hover:border-b-4 hover:border-b-yellow-600"
           onClick={() => navToSection("faq")}
         >
           FAQ
-        </button>
+        </button> */}
         <button
           className="text-sm md:text-lg font-bold text-white mx-4 py-2 hover:border-b-4 hover:border-b-yellow-600"
           onClick={() => navToSection("team")}
