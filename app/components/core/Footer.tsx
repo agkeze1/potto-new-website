@@ -53,7 +53,7 @@ const Footer = () => {
             className="hidden md:block mb-4"
           />
           <p className="text-sm font-light mb-4">
-            © 2024 Potto. All rights reserved
+            © 2025 Potto. All rights reserved
           </p>
 
           {/* Social Links */}
@@ -89,7 +89,8 @@ const Footer = () => {
           <div className="flex mb-4">
             <FiMapPin className="text-white mr-1" />
             <p className="text-sm font-light lg:w-3/5">
-              Houese 83, Coal City Gardenzw, Behind Central Bank of Nigeria Okpara Avenue Enugu.
+              Houese 83, Coal City Gardenzw, Behind Central Bank of Nigeria
+              Okpara Avenue Enugu.
             </p>
           </div>
 

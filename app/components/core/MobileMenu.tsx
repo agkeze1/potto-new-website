@@ -26,12 +26,12 @@ const MobileMenu: FC<Props> = ({ isOpen, navToSection }) => {
         >
           Suite
         </button>
-        <button
+        {/* <button
           className="text-sm  font-bold text-white py-2"
           onClick={() => navToSection("faq")}
         >
           FAQ
-        </button>
+        </button> */}
         <button
           className="text-sm  font-bold text-white py-2"
           onClick={() => navToSection("team")}
